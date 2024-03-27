@@ -11,35 +11,38 @@
 </head>
 
 <body>
-    <div class="container-fluid color">
-        <nav class="navbar navbar-expand-lg container-fluid color">
-            <div class="container" style="text-align: start;">
-                <img src="assets/img/viajes.svg" style="height: 30px;">
-                <p class="Viajes">Viajes Chile</p>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
+    <!-- navbar hecho con bootstrap -->
+    <header>
+        <div class="container-fluid color">
+            <nav class="navbar navbar-expand-lg container-fluid color">
+                <div class="container" style="text-align: start;">
+                    <img src="assets/img/viajes.svg" style="height: 30px;">
+                    <p class="Viajes">Viajes Chile</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quienes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-
+            </nav>
+        </div>
+    </header>
+    <!--carrusel boostrap javascript-->
     <section>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -63,116 +66,153 @@
             </button>
         </div>
     </section>
-    <div class="container-fluid" id="cont">
-        <h2>¿quienes somos?</h2>
-        <hr class="opasity-100">
-        <div class="row">
-            <div class="container col-lg-3 col-md-6">
-                <div class="card mx-3" style="width: 20rem;">
-                    <div class="card-header">
-                        <i class="fa-solid fa-plane"></i>
-                    </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra. Cum
-                                sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
-                                auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
-                                ultrices neque ornare aenean euismod. </p>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-            <div class="container  col-lg-3 col-md-6">
-                <div class="card mx-3" style="width: 20rem;">
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra. Cum
-                                sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
-                                auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
-                                ultrices neque ornare aenean euismod. </p>
-                        </blockquote>
-                    </div>
-                    <div class="card-header">
-                        <i class="fa-solid fa-mountain"></i>
+    <!--cards y favicoms-->
+    <section>
+        <div class="container-fluid" id="cont">
+            <h2>¿quienes somos?</h2>
+            <hr class="opasity-100">
+            <div class="row">
+                <div class="container col-lg-3 col-md-6">
+                    <div class="card mx-3" style="width: 20rem;">
+                        <div class="card-header">
+                            <i class="fa-solid fa-plane"></i>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra.
+                                    Cum
+                                    sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
+                                    auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
+                                    ultrices neque ornare aenean euismod. </p>
+                            </blockquote>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container col-lg-3 col-md-6">
-                <div class="card mx-3" style="width: 20rem;">
-                    <div class="card-header">
-                        <i class="fa-solid fa-route"></i>
-                    </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra. Cum
-                                sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
-                                auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
-                                ultrices neque ornare aenean euismod. </p>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid" id="cont2">
-        <h2>DESTACADOS</h2>
-        <hr class="opasity-100">
-        <div class="row">
-            <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                <div class="card mx-4" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit
-                            autem quae culpa nemo in, alias sequi eaque earum consectetur, reiciendis saepe nam aliquid
-                            maxime consequuntur expedita. Enim, incidunt atque.</p>
+                <div class="container  col-lg-3 col-md-6">
+                    <div class="card mx-3" style="width: 20rem;">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra.
+                                    Cum
+                                    sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
+                                    auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
+                                    ultrices neque ornare aenean euismod. </p>
+                            </blockquote>
+                        </div>
+                        <div class="card-header">
+                            <i class="fa-solid fa-mountain"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                <div class="card mx-4" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-                            distinctio? Qui in nostrum voluptate laudantium. Alias cupiditate, dolorem, nihil blanditiis
-                            repellat aperiam itaque voluptates ab debitis, eligendi rerum corporis recusandae?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                <div class="card mx-4" style="width: 18rem;">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                            dignissimos, voluptate nobis quae maxime quis deleniti possimus minima corporis, quam quod
-                            explicabo, accusamus inventore corrupti at! Modi blanditiis architecto quidem!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                <div class="card mx-4" style="width: 18rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum veniam
-                            mollitia ipsam quos repudiandae. Eos in esse nostrum dolor atque veniam, repellat unde ullam
-                            enim officia ipsam accusantium ea quia?</p>
+                <div class="container col-lg-3 col-md-6">
+                    <div class="card mx-3" style="width: 20rem;">
+                        <div class="card-header">
+                            <i class="fa-solid fa-route"></i>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra.
+                                    Cum
+                                    sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
+                                    auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
+                                    ultrices neque ornare aenean euismod. </p>
+                            </blockquote>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!--cards con imagenes correspondientes-->
+    <section>
+        <div class="container-fluid" id="cont2">
+            <h2>DESTACADOS</h2>
+            <hr class="opasity-100">
+            <div class="row">
+                <div class="container col-lg-2 col-md-5 mx-2 my-2">
+                    <div class="card mx-4" style="width: 18rem;">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                                velit
+                                autem quae culpa nemo in, alias sequi eaque earum consectetur, reiciendis saepe nam
+                                aliquid
+                                maxime consequuntur expedita. Enim, incidunt atque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-lg-2 col-md-5 mx-2 my-2">
+                    <div class="card mx-4" style="width: 18rem;">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                                distinctio? Qui in nostrum voluptate laudantium. Alias cupiditate, dolorem, nihil
+                                blanditiis
+                                repellat aperiam itaque voluptates ab debitis, eligendi rerum corporis recusandae?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-lg-2 col-md-5 mx-2 my-2">
+                    <div class="card mx-4" style="width: 18rem;">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+                                dignissimos, voluptate nobis quae maxime quis deleniti possimus minima corporis, quam
+                                quod
+                                explicabo, accusamus inventore corrupti at! Modi blanditiis architecto quidem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-lg-2 col-md-5 mx-2 my-2">
+                    <div class="card mx-4" style="width: 18rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum veniam
+                                mollitia ipsam quos repudiandae. Eos in esse nostrum dolor atque veniam, repellat unde
+                                ullam
+                                enim officia ipsam accusantium ea quia?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--formulariod e contacto mas popover-->
     <div class="container-fluid" id="cont3">
         <h2>CONTACTO</h2>
         <hr class="opasity-100">
+        <div class="container">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona aqui para enviar mensaje" id="enviarmensaje"> 
+                    Enviar
+              </form>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/main.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/main.js"></script>
 </body>
 
 </html>
+
