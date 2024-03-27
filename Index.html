@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/estilo.css">
@@ -14,7 +18,7 @@
     <!-- navbar hecho con bootstrap -->
     <header>
         <div class="container-fluid color">
-            <nav class="navbar navbar-expand-lg container-fluid color">
+            <nav class="navbar navbar-expand-lg container-fluid color fixed-top">
                 <div class="container" style="text-align: start;">
                     <img src="assets/img/viajes.svg" style="height: 30px;">
                     <p class="Viajes">Viajes Chile</p>
@@ -69,60 +73,68 @@
     <!--cards y favicoms-->
     <section>
         <div class="container-fluid" id="cont">
-            <h2>¿quienes somos?</h2>
-            <hr class="opasity-100">
-            <div class="row">
-                <div class="container col-lg-3 col-md-6">
-                    <div class="card mx-3" style="width: 20rem;">
-                        <div class="card-header">
-                            <i class="fa-solid fa-plane"></i>
-                        </div>
-                        <div class="card-body">
-                            <blockquote class="blockquote mb-0">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt
-                                    ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra.
-                                    Cum
-                                    sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
-                                    auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
-                                    ultrices neque ornare aenean euismod. </p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="container  col-lg-3 col-md-6">
-                    <div class="card mx-3" style="width: 20rem;">
-                        <div class="card-body">
-                            <blockquote class="blockquote mb-0">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt
-                                    ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra.
-                                    Cum
-                                    sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
-                                    auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
-                                    ultrices neque ornare aenean euismod. </p>
-                            </blockquote>
-                        </div>
-                        <div class="card-header">
-                            <i class="fa-solid fa-mountain"></i>
+            <div class="d-none d-lg-block">
+                <h2>¿quienes somos?</h2>
+                <hr class="opasity-100">
+                <div class="row">
+                    <div class="container col-lg-3 col-md-6">
+                        <div class="card mx-3" style="width: 20rem;">
+                            <div class="card-header">
+                                <i class="fa-solid fa-plane"></i>
+                            </div>
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem
+                                        viverra.
+                                        Cum
+                                        sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices
+                                        vitae
+                                        auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
+                                        ultrices neque ornare aenean euismod. </p>
+                                </blockquote>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container col-lg-3 col-md-6">
-                    <div class="card mx-3" style="width: 20rem;">
-                        <div class="card-header">
-                            <i class="fa-solid fa-route"></i>
+                    <div class="container  col-lg-3 col-md-6">
+                        <div class="card mx-3" style="width: 20rem;">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem
+                                        viverra.
+                                        Cum
+                                        sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices
+                                        vitae
+                                        auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
+                                        ultrices neque ornare aenean euismod. </p>
+                                </blockquote>
+                            </div>
+                            <div class="card-header">
+                                <i class="fa-solid fa-mountain"></i>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <blockquote class="blockquote mb-0">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt
-                                    ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra.
-                                    Cum
-                                    sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices vitae
-                                    auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
-                                    ultrices neque ornare aenean euismod. </p>
-                            </blockquote>
+                    </div>
+                    <div class="container col-lg-3 col-md-6">
+                        <div class="card mx-3" style="width: 20rem;">
+                            <div class="card-header">
+                                <i class="fa-solid fa-route"></i>
+                            </div>
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem
+                                        viverra.
+                                        Cum
+                                        sociis natoque penatibus et magnis dis parturient montes nascetur. Eu ultrices
+                                        vitae
+                                        auctor eu augue ut. Eu turpis egestas pretium aenean. Mi eget mauris pharetra et
+                                        ultrices neque ornare aenean euismod. </p>
+                                </blockquote>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -134,85 +146,98 @@
         <div class="container-fluid" id="cont2">
             <h2>DESTACADOS</h2>
             <hr class="opasity-100">
-            <div class="row">
-                <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                    <div class="card mx-4" style="width: 18rem;">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-                                velit
-                                autem quae culpa nemo in, alias sequi eaque earum consectetur, reiciendis saepe nam
-                                aliquid
-                                maxime consequuntur expedita. Enim, incidunt atque.</p>
-                        </div>
+            <div class="container col-lg-2 ">
+                <div class="card mx-4 my-4" style="width: 18rem;">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                            velit
+                            autem quae culpa nemo in, alias sequi eaque earum consectetur, reiciendis saepe nam
+                            aliquid
+                            maxime consequuntur expedita. Enim, incidunt atque.</p>
                     </div>
                 </div>
-                <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                    <div class="card mx-4" style="width: 18rem;">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-                                distinctio? Qui in nostrum voluptate laudantium. Alias cupiditate, dolorem, nihil
-                                blanditiis
-                                repellat aperiam itaque voluptates ab debitis, eligendi rerum corporis recusandae?</p>
-                        </div>
+            </div>
+            <div class="container col-lg-2 ">
+                <div class="card mx-4 my-4" style="width: 18rem;">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                            distinctio? Qui in nostrum voluptate laudantium. Alias cupiditate, dolorem, nihil
+                            blanditiis
+                            repellat aperiam itaque voluptates ab debitis, eligendi rerum corporis recusandae?</p>
                     </div>
                 </div>
-                <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                    <div class="card mx-4" style="width: 18rem;">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                                dignissimos, voluptate nobis quae maxime quis deleniti possimus minima corporis, quam
-                                quod
-                                explicabo, accusamus inventore corrupti at! Modi blanditiis architecto quidem!</p>
-                        </div>
+            </div>
+            <div class="container col-lg-2 ">
+                <div class="card mx-4 my-4" style="width: 18rem;">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+                            dignissimos, voluptate nobis quae maxime quis deleniti possimus minima corporis, quam
+                            quod
+                            explicabo, accusamus inventore corrupti at! Modi blanditiis architecto quidem!</p>
                     </div>
                 </div>
-                <div class="container col-lg-2 col-md-5 mx-2 my-2">
-                    <div class="card mx-4" style="width: 18rem;">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum veniam
-                                mollitia ipsam quos repudiandae. Eos in esse nostrum dolor atque veniam, repellat unde
-                                ullam
-                                enim officia ipsam accusantium ea quia?</p>
-                        </div>
+            </div>
+            <div class="container col-lg-2 ">
+                <div class="card mx-4 my-4" style="width: 18rem;">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum veniam
+                            mollitia ipsam quos repudiandae. Eos in esse nostrum dolor atque veniam, repellat unde
+                            ullam
+                            enim officia ipsam accusantium ea quia?</p>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
     <!--formulariod e contacto mas popover-->
-    <div class="container-fluid" id="cont3">
-        <h2>CONTACTO</h2>
-        <hr class="opasity-100">
-        <div class="container">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>
-                  <input type="text" class="form-control">
+    <section>
+        <div class="container-fluid" id="cont3">
+            <h2>CONTACTO</h2>
+            <hr class="opasity-100">
+            <div class="container col-lg-3 my-4">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="Presiona aqui para enviar mensaje" id="enviarmensaje">
+                        Enviar
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Creaciondel footer-->
+    <footer>
+        <div class="container-fluid color" id="cont4">
+            <div class="container" id="foot">
+                <h2>Viajes Chile</h2>
+                <div class="icons">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona aqui para enviar mensaje" id="enviarmensaje"> 
-                    Enviar
-              </form>
+            </div>
+        </div>
+    </footer>
 
-
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
-
