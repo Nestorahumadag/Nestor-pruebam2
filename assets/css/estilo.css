@@ -1,0 +1,92 @@
+body {
+    background-color: #000000;
+}
+.navbar {
+    background-color: #269DAB;
+}
+
+.color {
+    background-color: #269DAB;
+
+}
+
+.Viajes {
+    color: white;
+    margin-bottom: 2px;
+    font-size: 25px;
+    padding-right: 100px;
+    
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+#cont {
+    background-color: black;
+}
+#cont h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+#cont hr {
+    width: 50%;
+    color: white;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+#cont .card {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    margin-left: 20px;
+    
+}
+
+.card-header {
+    background-color: #0DCAF0;
+    text-align: center;
+    
+}
+.card-body {
+    background-color: #000000 ;
+}
+
+i {
+    filter: invert();
+    
+}
+#cont2 h2 {
+    text-align: center;
+    color: white;
+}
+#cont2 hr {
+    width: 50%;
+    color: white;
+    margin-left: 25%;
+}
+
+#cont3 {
+    background-color: black;
+}
+#cont3 h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+#cont3 hr {
+    width: 50%;
+    color: white;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
