@@ -78,6 +78,8 @@ body {
 .card-body p {
     font-size: 12pt;
     text-align: start;
+    font-weight: 300;
+    color: #EDE9E6;
 
 }
 
@@ -89,8 +91,11 @@ body {
     background-color: #0DCAF0;
 }
 
-.card-body p {
-    color: white;
+#cont2 .card-body p {
+    color: #EDE9E6;
+    font-size: 15pt;
+    font-weight: 400;
+    
 }
 
 i {
