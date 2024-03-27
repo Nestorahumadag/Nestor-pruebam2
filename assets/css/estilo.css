@@ -3,7 +3,7 @@ body {
     font-family: "Open Sans", sans-serif;
 
 }
-/*css de navbar*/
+/*Configuracion navbar*/
 .navbar {
     background-color: #269DAB;
 }
@@ -34,11 +34,12 @@ body {
 .navbar-nav a {
     color: white;
 }
-/*fin de navbar*/
+/*Configuracion navbar*/
 
-/*css cards y favicoms*/
+/*Configuracion cards y favicoms*/
 #cont {
     background-color: black;
+    
 }
 #cont h2 {
     margin-top: 30px;
@@ -51,17 +52,14 @@ body {
     margin-left: 25%;
     margin-bottom: 50px;
 }
-#cont .card {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid black;
-    margin-left: 20px;
-    
+
+.card-container {
+    margin-left: -50px;
+    margin-right: 50px;
+    padding-left: 100px; 
+    padding-right: 100px;
     
 }
-/*Fin css cards y favicoms*/
-
-/*css cards con imagenes*/
 .card-header {
     background-color: #0DCAF0;
     text-align: center;
@@ -70,6 +68,19 @@ body {
 .card-body {
     background-color: #000000 ;
 }
+
+.card-body p {
+    font-size: 12pt;
+    text-align: start;
+    
+}
+/*Fin configuracion cards y favicoms*/
+
+/*Configuracion cards con imagenes*/
+
+#cont2 .card-body {
+    background-color: #0DCAF0 ;
+}
 .card-body p {
     color: white;
 }
@@ -77,6 +88,7 @@ i {
     filter: invert();
     
 }
+
 #cont2 h2 {
     text-align: center;
     color: white;
@@ -87,9 +99,10 @@ i {
     color: white;
     margin-left: 25%;
 }
-/*Fin css cards con imagenes*/
 
-/*css formulario mas popovedr*/
+/*Fin configuracion cards con imagenes*/
+
+/*Configuracion formulario mas popovedr*/
 #cont3 {
     background-color: black;
     padding-right: 10px;
@@ -109,9 +122,9 @@ i {
 .form-label {
     color: white;
 }
+/* Fin configuracion formulario mas popovedr*/
 
-
-
+/*Configuracion footer*/
 #foot {
     display: flex;
     justify-content: space-between;
@@ -129,4 +142,25 @@ h2 {
     margin-right: 10px; 
     font-size: 24px; 
 }
+/*Fin Configuracion footer*/
 
+/*Confiuracion de media para pantallas grandes*/
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+
+   
+
+    #cont .card {
+        width: 25%;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        margin-left: 100px
+}
+    #cont2 .card {
+    height: 100%;
+}
+    #cont3 {
+        margin-top: 100px;
+    }
+
+}
